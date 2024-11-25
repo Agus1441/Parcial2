@@ -45,7 +45,7 @@ const EditEquipoDetail: React.FC<Props> = ({ navigation, route }) => {
         { cancelable: false }
       );
     } catch (error) {
-      console.error("Error updating planet:", error);
+      console.error("Error updating equipo:", error);
     }
   };
 
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
   },
   input: {
     height: 40,
-    borderColor: '#ccc',
+    borderColor: 'gray',
     borderWidth: 1,
     marginBottom: 10,
     paddingLeft: 10,

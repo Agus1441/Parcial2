@@ -6,7 +6,7 @@ interface Props {
   description: string;
   goals: number;
   points: number;
-  onPress: () => void; // Nueva prop
+  onPress: () => void;
 }
 
 

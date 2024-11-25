@@ -46,7 +46,7 @@ const EquipoDetail: React.FC<{ navigation: any; route: any }> = ({ navigation, r
   if (loading) {
     return (
       <View style={styles.center}>
-        <ActivityIndicator size="large" color="#0000ff" />
+        <ActivityIndicator size="large" color="blue" />
       </View>
     );
   }

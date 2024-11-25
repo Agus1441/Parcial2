@@ -29,7 +29,7 @@ const EquiposScreen: React.FC<Props> = ({ navigation }) => {
         setEquipos(data);
         setOriginalEquipos(data);
       } catch (error) {
-        console.error('Error fetching planets:', error);
+        console.error('Error fetching equipos:', error);
       } finally {
         setLoading(false);
       }
@@ -57,7 +57,7 @@ const EquiposScreen: React.FC<Props> = ({ navigation }) => {
   if (loading) {
     return (
       <View style={styles.center}>
-        <ActivityIndicator size="large" color="#0000ff" />
+        <ActivityIndicator size="large" color="blue" />
       </View>
     );
   }
